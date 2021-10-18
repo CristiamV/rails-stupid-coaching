@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Stupit Coaching</h1>  
+  <div class="card">
+    <div class="card-body">
+      <h3 class="card-title"><%=@question%></h3>
+      <h2 class="card-subtitle mb-2 text-muted"><em>--You</em></h2>
+    </div> 
+  </div> 
+  <div class="card alert alert-warning">
+    <div class="card-body">
+      <h2 class="card-title"><%=@message%></h2>
+      <h2 class="card-subtitle mb-2 text-muted"><em>--Coach</em></h2>
+    </div> 
+  </div>
+  <%= link_to "Ask a new question", "/ask" %>
+</div> 
+
